@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverTest\\RecordRetrieverTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\RecordRetrieverFunctionApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\RecordRetrieverFunctionApp.csproj",
+        "projectName": "RecordRetrieverFunctionApp",
+        "projectPath": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\RecordRetrieverFunctionApp.csproj",
+        "packagesPath": "C:\\Users\\anthonyus.halim\\.nuget\\packages\\",
+        "outputPath": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anthonyus.halim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.16.1, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.18.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Timer": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Sdk": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverTest\\RecordRetrieverTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverTest\\RecordRetrieverTest.csproj",
+        "projectName": "RecordRetrieverTest",
+        "projectPath": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverTest\\RecordRetrieverTest.csproj",
+        "packagesPath": "C:\\Users\\anthonyus.halim\\.nuget\\packages\\",
+        "outputPath": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anthonyus.halim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\RecordRetrieverFunctionApp.csproj": {
+                "projectPath": "C:\\Anthonyus\\Repo\\RaboAssignment\\RaboAssignment\\RecordRetrieverFunctionApp\\RecordRetrieverFunctionApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
