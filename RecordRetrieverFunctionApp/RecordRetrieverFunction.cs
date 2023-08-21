@@ -44,7 +44,7 @@ namespace RecordRetrieverFunctionApp
                 if (myTimer.ScheduleStatus != null)
                     lastExecutedUtc = myTimer.ScheduleStatus.Last.ToUniversalTime();
 
-                var recordsSent = await _recordSender.RetrieveAndSendRecords(lastExecutedUtc.AddDays(-2));
+                var recordsSent = await _recordSender.RetrieveAndSendRecords(lastExecutedUtc);
                 _logger.LogInformation($"Successfully sending  {recordsSent} records to ServiceBus");
             }
             catch (Exception ex)
