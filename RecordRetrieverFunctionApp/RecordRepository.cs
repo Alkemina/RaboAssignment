@@ -27,7 +27,7 @@ namespace RecordRetrieverFunctionApp
         {
             try
             {
-                return await _recordContext.Records.FromSql($"GetRecord {lastExecutedUtc}").ToListAsync();
+                return await _recordContext.Records.FromSql($"sp_GetRecords {lastExecutedUtc}").ToListAsync();
             }
             catch (Exception ex)
             {
